@@ -39,7 +39,7 @@ export default function Referal() {
                         <Text style={{
                             color: '#D3D3D3',
                             marginTop: hp('2%'),
-                        }}>Invite Your Friend {'\n'} And Be Healthy Together</Text>
+                        }}>Invite your friends And{'\n'}Be healthy together</Text>
                         <TextInput
                             style={styles.input}
                             placeholder="Enter Invitor's referl code"
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
         height: 40,
         marginTop: hp('7%'),
         marginRight: wp('6%'),
-        // backgroundColor:'#D3D3D3',
+        // backgroundColor:'white',
         borderRadius:6
     },
     button: {

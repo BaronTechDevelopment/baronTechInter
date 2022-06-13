@@ -25,7 +25,7 @@ export default function MyMembership() {
                         <Text style={{ color: 'black', fontWeight: 'bold', fontSize: 18, marginTop: hp('1.5%') }}>
                             Level 7
                         </Text>
-                        <Text style={{ color: '#D3D3D3' }}>8000</Text>
+                        <Text style={{ color: '#D3D3D3' }}>80000</Text>
                     </View>
                     <View style={styles.imageContianer}>
                         <Image
@@ -68,9 +68,10 @@ const styles = StyleSheet.create({
         elevation: 6
     },
     tinyLogo: {
-    width: wp('30%'),
+    width: wp('28%'),
     height: hp('20%'),
-    borderTopRightRadius:6
+    borderTopRightRadius:16,
+    borderBottomRightRadius:16
   },
   imageContianer:{
     marginLeft:wp('30%'),
