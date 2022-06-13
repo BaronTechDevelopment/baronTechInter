@@ -13,7 +13,7 @@ export default function MyPage() {
     return (
         <View style={styles.container}>
             <Text style={styles.myPage}>My Page</Text>
-            <View style={styles.ImageBackground} s>
+            <View style={styles.ImageBackground}>
                 <ImageBackground
                     source={image}
                     resizeMode="cover"
@@ -21,13 +21,13 @@ export default function MyPage() {
                     imageStyle={{ borderRadius: 16 }}>
                     <View style={{marginLeft:wp('5%'),marginBottom:hp('10%')}}>
                         <TouchableOpacity>
-                            <Text style={{ color: 'blue' }}>Earn</Text>
+                            <Text style={{ color: '#9370db' }}>Earn</Text>
                         </TouchableOpacity>
                         <Text style={{ fontSize: 20, fontWeight: 'bold',marginTop:hp('2%')}}>
-                            634.2(from API {'\n'} response)
+                            634.2(from API{'\n'}response)
                         </Text>
                         <Text style={{ fontSize: 13, fontWeight: 'bold',marginTop:hp('2%')}}>
-                            Be healthy with {'\n'} Healthy apps
+                            Be healthy with{'\n'}Healthy apps
                         </Text>
                     </View>
                 </ImageBackground>

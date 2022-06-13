@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     flex: 1
   },
   iconStyle: {
-    margin: 15
+    margin: hp('2%')
   }
 });
 

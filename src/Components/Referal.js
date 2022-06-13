@@ -87,7 +87,8 @@ const styles = StyleSheet.create({
         marginTop: hp('7%'),
         marginRight: wp('6%'),
         // backgroundColor:'white',
-        borderRadius:6
+        borderRadius:6,
+        color:"#D3D3D3"
     },
     button: {
         backgroundColor: '#9370db',
