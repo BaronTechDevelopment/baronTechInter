@@ -39,6 +39,7 @@ export default function Referal() {
                         <Text style={{
                             color: '#D3D3D3',
                             marginTop: hp('2%'),
+                            lineHeight:22
                         }}>Invite your friends And{'\n'}Be healthy together</Text>
                         <TextInput
                             style={styles.input}

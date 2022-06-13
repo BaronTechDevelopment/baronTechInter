@@ -21,13 +21,13 @@ export default function MyPage() {
                     imageStyle={{ borderRadius: 16 }}>
                     <View style={{marginLeft:wp('5%'),marginBottom:hp('10%')}}>
                         <TouchableOpacity>
-                            <Text style={{ color: '#9370db' }}>Earn</Text>
+                            <Text style={{ color: '#9370db' }}>EARN</Text>
                         </TouchableOpacity>
-                        <Text style={{ fontSize: 20, fontWeight: 'bold',marginTop:hp('2%')}}>
+                        <Text style={{ fontSize: 20, fontWeight: 'bold',marginTop:hp('2%'),lineHeight:30}}>
                             634.2(from API{'\n'}response)
                         </Text>
-                        <Text style={{ fontSize: 13, fontWeight: 'bold',marginTop:hp('2%')}}>
-                            Be healthy with{'\n'}Healthy apps
+                        <Text style={{ fontSize: 13, fontWeight: 'bold',marginTop:hp('2%'),lineHeight:20}}>
+                            Be healthy with{'\n'}Healthy apps.
                         </Text>
                     </View>
                 </ImageBackground>
@@ -63,11 +63,4 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         marginTop: hp("2%"),
     },
-    boxWithShadow: {
-        shadowColor: 'black',
-        shadowOffset: { width: 0, height: 1 },
-        shadowOpacity: 0.8,
-        shadowRadius: 2,  
-        elevation: 5
-    }
 });
