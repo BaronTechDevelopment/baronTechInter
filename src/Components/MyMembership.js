@@ -25,7 +25,7 @@ export default function MyMembership() {
                         <Text style={{ color: 'black', fontWeight: 'bold', fontSize: 18, marginTop: hp('1.5%') }}>
                             Level 7
                         </Text>
-                        <Text style={{ color: '#D3D3D3' }}>80000</Text>
+                        <Text style={{ color: '#D3D3D3' }}>8000</Text>
                     </View>
                     <View style={styles.imageContianer}>
                         <Image
